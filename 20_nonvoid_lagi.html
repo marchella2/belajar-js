@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Welcome</title>
+    </head>
+    <body>
+        <script>
+            function sambungKata(kata1, kata2, kata3){
+                let sambungan=kata1+' '+kata2+' '+kata3;
+                return sambungan;
+            }
+
+            let wordOne = 'Javascript';
+            let wordTwo = 'Adalah Bahasa';
+            let wordThree = 'Yang Mudah Dipelajari';
+
+            let kalimat = sambungKata(wordOne,wordTwo,wordThree);
+            document.write(kalimat);
+            document.write('<br/>')
+            document.write(sambungKata('Jakarta', 'Kota', 'Ruwet'))            
+        </script>
+    </body>
+</html>
