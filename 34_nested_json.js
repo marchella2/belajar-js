@@ -9,7 +9,7 @@ let dataKaryawan = {
     },
     // Membuat array di JSON 
     tanggungan:[
-        {nama: 'Indah Setiawati', status: 'Istri'},
+        {nama: 'Nurhayati', status: 'Istri'},
         {nama: 'Agung', status: 'Anak'},
         {nama: 'Setyo', status: 'Anak'}
     ]
